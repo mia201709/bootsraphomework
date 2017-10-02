@@ -1,0 +1,55 @@
+body {
+    padding-top: 100px;
+}
+
+.my-nav {
+  background: #FF6600
+}
+
+.my-nav ul {
+  margin: 10px 0;
+}
+
+.menu li{
+    padding-right: 10px
+  }
+.btn{
+  width:110px;
+}
+
+hr{
+    height: 2px;
+    width: 1140px;
+    background-color:#ff6600;
+  }
+img{
+    padding-top: 10px;
+  }
+.hilink{
+  padding-top: 80px;
+  /*margin-top: -80px;*/
+}
+form{
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+.menu {
+    position: fixed;
+    right: 1px;
+    top: 40px;
+    width: 150px;
+    height: 100%;
+    background: #FF6600;
+  }
+  .menu li{
+    padding:20px 10px 10px 15px;
+  }
+  .btn{
+  width:110px;
+  }
+  hr{
+    max-width: 100%;
+  }
+  
+}
